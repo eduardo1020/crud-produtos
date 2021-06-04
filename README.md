@@ -1,6 +1,9 @@
 # CRUD - Produtos
 A CRUD operation of products develop with React, Bootstrap and Firebase.
 
+![Alt Text](https://github.com/eduardo1020/crud-produtos/blob/main/assets/crud-img.png)
+![Alt Text](https://github.com/eduardo1020/crud-produtos/blob/main/assets/crud-gif.gif)
+
 # Technologies
 - ReactJS
 - Bootstrap
