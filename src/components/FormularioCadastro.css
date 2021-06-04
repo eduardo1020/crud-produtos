@@ -1,0 +1,12 @@
+.form-cadastro {
+    display: flex;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.campos {
+    margin: 30px;
+}

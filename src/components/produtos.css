@@ -1,0 +1,53 @@
+.Produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.Produto {
+    width: 290px;
+    height: 390px;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+
+    text-align: center;
+}
+
+.btn {
+    margin: 15px 18px 0px 18px;
+}
+
+.Produto h3 {
+    font-size: 1.2rem;
+}
+
+.Produto h4 {
+    font-size: 0.9rem;
+    margin-top: 25px;
+}
+
+.formularioCadastro {
+    margin-top: 2%;
+    background-color: #E2E4F6;
+    padding: 35px;
+}
+
+.info {
+    height: 150px;
+}
+
+.partDown {
+    height: calc(100% - 150px);
+    background-color: #E7C8DD;
+    border-radius: 12px;
+    padding-top: 7%;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0px 8px 0px 8px;
+}
