@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import './menu.css'
 import './FormularioCadastro.css'
-import { storage } from '../firebase'
 
 const FormularioCadastro = props => {
 
@@ -14,7 +13,7 @@ const FormularioCadastro = props => {
     let [values, setValues] = useState(camposValoresIniciais)
 
     useEffect(() => {
-        if (props.idAtual == '') {
+        if (props.idAtual === '') {
             setValues({
                 ...camposValoresIniciais
             })
@@ -62,7 +61,7 @@ const FormularioCadastro = props => {
 
                 </div>
 
-                <input className="editaProduto" type="submit" value={props.idAtual == '' ? 'Salvar' : 'Atualizar'} className="btn btn-primary" />
+                <input className="editaProduto" type="submit" value={props.idAtual === '' ? 'Salvar' : 'Atualizar'} className="btn btn-primary" />
                 
             </form>
         </div>

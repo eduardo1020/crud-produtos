@@ -2,7 +2,6 @@ import FormularioCadastro from './FormularioCadastro'
 import fireDb from '../firebase'
 import { useEffect, useState } from 'react'
 import './produtos.css'
-import { storage } from '../firebase'
 
 const Cadastro = props => {
 
@@ -24,7 +23,7 @@ const Cadastro = props => {
 
     const addEdit = obj => {
 
-        if (idAtual == '') {
+        if (idAtual === '') {
             fireDb.child('produtos').push(
                 obj,
                 error => {
